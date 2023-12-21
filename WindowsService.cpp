@@ -29,7 +29,18 @@ void ServiceMain(int argc, char** argv);
 void ServiceControlHandler(DWORD request);
 int InitService();
 
-int main() {
+int main(int argc, char** argv) {
+
+    if (argc != 3 ) {
+        WriteToLog("Error: Insufficient command line parameters.");
+        return 0;
+    }
+    username = argv[1];
+    password = argv[2];
+    if (username == nullptr || password == nullptr) {
+        WriteToLog("Error: Username or password not specified.");
+        return 0;
+    }
 
     SERVICE_TABLE_ENTRY ServiceTable[2];
     ServiceTable[0].lpServiceName = (LPSTR)"BITAutoLogin";  // 服务名称
@@ -45,17 +56,6 @@ int main() {
 
 void ServiceMain(int argc, char** argv) {
     // 初始化服务类型、 状态、 接受的控制方法以及期待的返回值
-
-    if (argc != 3 ) {
-        WriteToLog("Error: Insufficient command line parameters.");
-        return;
-    }
-    username = argv[1];
-    password = argv[2];
-    if (username == nullptr || password == nullptr) {
-        WriteToLog("Error: Username or password not specified.");
-        return;
-    }
 
 
     ServiceStatus.dwServiceType = SERVICE_WIN32;

@@ -1,0 +1,11 @@
+# ninja log v5
+5	2634	7246853750519499	CMakeFiles/BITAutoLogin.dir/main.cpp.obj	a4a01f36a8e95462
+4	486	7248282335834060	build.ninja	17522b0b0be0663
+7	4761	7248280040362557	BITAutoLogin.exe	37fd4ae093543b66
+7	3327	7248261695071052	CMakeFiles/BITAutoLogin.dir/WindowsService.cpp.obj	5bae73c81e42dd78
+26	2534	7246853749519515	CMakeFiles/BITAutoLogin.dir/generate.cpp.obj	e122afdea4f849ab
+21	2710	7246853751279158	CMakeFiles/BITAutoLogin.dir/decode.cpp.obj	fa76bb58c60f33d7
+10	3096	7246853755115906	CMakeFiles/BITAutoLogin.dir/xencode.cpp.obj	7378a90b3755b9c9
+16	5409	7246853778186318	CMakeFiles/BITAutoLogin.dir/requests.cpp.obj	4f998f6e2f3a8c81
+2	178	7248282335834060	build.ninja	17522b0b0be0663
+5	4640	7248282366929222	BITAutoLogin.exe	3a21cbf31eadb55a

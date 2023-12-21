@@ -1,0 +1,3 @@
+C:/Users/God/CLionProjects/BITAutoLogin/cmake-build-debug/CMakeFiles/BITAutoLogin.dir
+C:/Users/God/CLionProjects/BITAutoLogin/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/God/CLionProjects/BITAutoLogin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
